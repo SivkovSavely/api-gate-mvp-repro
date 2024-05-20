@@ -1,0 +1,20 @@
+{
+  "name": "repro-api-gate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mesh dev",
+    "build": "echo noop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.90.5",
+    "@graphql-mesh/graphql": "^0.98.4",
+    "@graphql-yoga/plugin-apq": "^3.3.1",
+    "graphql": "^16.8.1",
+    "tiny-lru": "^11.2.6"
+  }
+}

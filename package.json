@@ -1,0 +1,26 @@
+{
+  "name": "repro-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "start-api": "yarn workspace repro-api-gate start"
+  },
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.90.5",
+    "@graphql-mesh/plugin-prometheus": "^0.100.1",
+    "@graphql-yoga/plugin-apq": "^3.3.1",
+    "graphql": "^16.8.1",
+    "prom-client": "^15.1.2",
+    "tiny-lru": "^11.2.6"
+  }
+}
